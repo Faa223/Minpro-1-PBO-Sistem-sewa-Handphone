@@ -95,22 +95,21 @@ Jika pengguna memilih menu <b>0. Keluar</b> pada Menu Utama, sistem akan menampi
 
 Screenshot berikut menunjukkan tampilan menu Data Handphone yang menyediakan fitur untuk menambah, melihat, mengubah, dan menghapus data handphone.
 
-![Menu Data Handphone](<img width="928" height="242" alt="menu-handphone png" src="https://github.com/user-attachments/assets/90886f55-991b-4b93-a16d-b262231883b4" />
-)
+![Menu Data Handphone]<img width="928" height="242" alt="menu-handphone png" src="https://github.com/user-attachments/assets/59cfe0a3-44d3-4cde-90e5-e14e8b95ef42" />
+
 
 ### <b>B. Menu Data Pelanggan</b>
 
 Screenshot berikut menunjukkan tampilan menu Data Pelanggan yang digunakan untuk mengelola data pelanggan dengan fitur tambah, lihat, ubah, dan hapus.
 
-![Menu Data Pelanggan](<img width="921" height="240" alt="menu-pelanggan png" src="https://github.com/user-attachments/assets/be5eda01-2105-4063-b8eb-0dace2de0710" />
-)
+![Menu Data Pelanggan]<img width="921" height="240" alt="menu-pelanggan png" src="https://github.com/user-attachments/assets/2f0ebfa8-28d9-40a1-8f57-d6c0911220cf" />
+
 
 ### <b>C. Menu Data Sewa</b>
 
 Screenshot berikut menunjukkan tampilan menu Data Sewa yang digunakan untuk mengelola data transaksi penyewaan handphone dengan fitur tambah, lihat, ubah, dan hapus.
 
-![Menu Data Sewa](<img width="940" height="236" alt="menu-sewa png" src="https://github.com/user-attachments/assets/71039ce1-b11b-470c-9b17-4a6d7ff95a50" />
-)
+![Menu Data Sewa]<img width="940" height="236" alt="menu-sewa png" src="https://github.com/user-attachments/assets/904e60f7-f3f2-446d-bd93-65823a9cccfa" />
 
 
 ## <b>3. Implementasi Program</b>
@@ -141,7 +140,7 @@ yang tersimpan dalam sistem.
 </p>
 
 <p align="center">
-  <img src="menu-pelanggan.png" width="600">
+  <<img width="928" height="747" alt="implementasi-pelanggan png" src="https://github.com/user-attachments/assets/5247efe5-ba81-434f-9952-bda2f0fb334c" />>
 </p>
 
 <p align="center">
@@ -158,7 +157,7 @@ data penyewaan.
 </p>
 
 <p align="center">
-  <img src="menu-sewa.png" width="600">
+  <<img width="935" height="898" alt="implementasi-sewa png" src="https://github.com/user-attachments/assets/b5062fd8-96c2-4faf-a75e-ddb447e9d978" />>
 </p>
 
 <p align="center">
