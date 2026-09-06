@@ -101,7 +101,8 @@ Screenshot berikut menunjukkan tampilan menu Data Handphone yang menyediakan fit
 
 Screenshot berikut menunjukkan tampilan menu Data Pelanggan yang digunakan untuk mengelola data pelanggan dengan fitur tambah, lihat, ubah, dan hapus.
 
-![Menu Data Pelanggan](nmenu-pelanggan.png)
+![Menu Data Pelanggan](n<img width="928" height="242" alt="menu-handphone png" src="https://github.com/user-attachments/assets/14110dbb-3d00-4db7-b05e-5729a953cd7b" />
+menu-pelanggan.png)
 
 ### <b>C. Menu Data Sewa</b>
 
