@@ -95,16 +95,16 @@ Jika pengguna memilih menu <b>0. Keluar</b> pada Menu Utama, sistem akan menampi
 
 Screenshot berikut menunjukkan tampilan menu Data Handphone yang menyediakan fitur untuk menambah, melihat, mengubah, dan menghapus data handphone.
 
-![Menu Data Handphone](nama-file-screenshot-handphone.png)
+![Menu Data Handphone](menu-handphone.png)
 
 ### <b>B. Menu Data Pelanggan</b>
 
 Screenshot berikut menunjukkan tampilan menu Data Pelanggan yang digunakan untuk mengelola data pelanggan dengan fitur tambah, lihat, ubah, dan hapus.
 
-![Menu Data Pelanggan](nama-file-screenshot-pelanggan.png)
+![Menu Data Pelanggan](nmenu-pelanggan.png)
 
 ### <b>C. Menu Data Sewa</b>
 
 Screenshot berikut menunjukkan tampilan menu Data Sewa yang digunakan untuk mengelola data transaksi penyewaan handphone dengan fitur tambah, lihat, ubah, dan hapus.
 
-![Menu Data Sewa](nama-file-screenshot-sewa.png)
+![Menu Data Sewa](menu-sewa.png)
