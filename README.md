@@ -95,7 +95,7 @@ Jika pengguna memilih menu <b>0. Keluar</b> pada Menu Utama, sistem akan menampi
 
 Screenshot berikut menunjukkan tampilan menu Data Handphone yang menyediakan fitur untuk menambah, melihat, mengubah, dan menghapus data handphone.
 
-![Menu Data Handphone](<img width="928" height="242" alt="menu-handphone png" src="https://github.com/user-attachments/assets/4e9d6154-e317-4779-8428-580d4faf5b18" />
+![Menu Data Handphone](<img width="928" height="242" alt="menu-handphone png" src="https://github.com/user-attachments/assets/90886f55-991b-4b93-a16d-b262231883b4" />
 )
 
 ### <b>B. Menu Data Pelanggan</b>
