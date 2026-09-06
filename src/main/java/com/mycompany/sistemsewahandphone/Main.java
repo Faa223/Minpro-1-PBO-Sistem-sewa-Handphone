@@ -36,10 +36,8 @@ public class Main {
             input.nextLine();
 
             switch (pilihan) {
-
-                // =========================================================
+                    
                 // HANDPHONE
-                // =========================================================
                 case 1:
 
                     int menuHP;
@@ -75,13 +73,13 @@ public class Main {
 
                                 hp.add(new Handphone(kode, merk, tipe, harga));
 
-                                System.out.println("Handphone berhasil ditambahkan!");
+                                System.out.println("Handphone sudah ditambahkan");
                                 break;
 
                             // READ
                             case 2:
                                 if (hp.isEmpty()) {
-                                    System.out.println("Belum ada data handphone.");
+                                    System.out.println("Belum ada data tersedia");
                                 } else {
                                     System.out.println("\n=== DAFTAR HANDPHONE ===");
 
@@ -100,7 +98,7 @@ public class Main {
                             // UPDATE
                             case 3:
                                 if (hp.isEmpty()) {
-                                    System.out.println("Belum ada data handphone.");
+                                    System.out.println("Belum ada data handphone");
                                 } else {
 
                                     for (int i = 0; i < hp.size(); i++) {
@@ -112,7 +110,7 @@ public class Main {
                                         );
                                     }
 
-                                    System.out.print("Pilih nomor HP yang ingin diubah: ");
+                                    System.out.print("Pilih nomor HP yang mau diubah: ");
                                     int nomor = input.nextInt();
                                     input.nextLine();
 
@@ -128,10 +126,10 @@ public class Main {
                                         hp.get(nomor - 1).harga = input.nextDouble();
                                         input.nextLine();
 
-                                        System.out.println("Data berhasil diubah!");
+                                        System.out.println("Data berhasil diubah");
 
                                     } else {
-                                        System.out.println("Nomor tidak tersedia.");
+                                        System.out.println("Nomor tidak tersedia");
                                     }
                                 }
                                 break;
@@ -139,7 +137,7 @@ public class Main {
                             // DELETE
                             case 4:
                                 if (hp.isEmpty()) {
-                                    System.out.println("Belum ada data handphone.");
+                                    System.out.println("Belum ada data handphone");
                                 } else {
 
                                     for (int i = 0; i < hp.size(); i++) {
@@ -161,7 +159,7 @@ public class Main {
                                         System.out.println("Data berhasil dihapus!");
 
                                     } else {
-                                        System.out.println("Nomor tidak tersedia.");
+                                        System.out.println("Nomor tidak tersedia");
                                     }
                                 }
                                 break;
@@ -170,16 +168,14 @@ public class Main {
                                 break;
 
                             default:
-                                System.out.println("Pilihan tidak tersedia.");
+                                System.out.println("Pilihan tidak tersedia");
                         }
 
                     } while (menuHP != 0);
 
                     break;
 
-                // =========================================================
                 // PELANGGAN
-                // =========================================================
                 case 2:
 
                     int menuPelanggan;
@@ -236,7 +232,7 @@ public class Main {
                             // UPDATE
                             case 3:
                                 if (pelanggan.isEmpty()) {
-                                    System.out.println("Belum ada data pelanggan.");
+                                    System.out.println("Belum ada data pelanggan");
                                 } else {
 
                                     for (int i = 0; i < pelanggan.size(); i++) {
@@ -262,7 +258,7 @@ public class Main {
                                         System.out.println("Data berhasil diubah!");
 
                                     } else {
-                                        System.out.println("Nomor tidak tersedia.");
+                                        System.out.println("Nomor tidak tersedia");
                                     }
                                 }
                                 break;
@@ -270,7 +266,7 @@ public class Main {
                             // DELETE
                             case 4:
                                 if (pelanggan.isEmpty()) {
-                                    System.out.println("Belum ada data pelanggan.");
+                                    System.out.println("Belum ada data pelanggan");
                                 } else {
 
                                     for (int i = 0; i < pelanggan.size(); i++) {
@@ -292,7 +288,7 @@ public class Main {
                                         System.out.println("Data berhasil dihapus!");
 
                                     } else {
-                                        System.out.println("Nomor tidak tersedia.");
+                                        System.out.println("Nomor tidak tersedia");
                                     }
                                 }
                                 break;
@@ -301,16 +297,14 @@ public class Main {
                                 break;
 
                             default:
-                                System.out.println("Pilihan tidak tersedia.");
+                                System.out.println("Pilihan tidak tersedia");
                         }
 
                     } while (menuPelanggan != 0);
 
                     break;
 
-                // =========================================================
                 // SEWA
-                // =========================================================
                 case 3:
 
                     int menuSewa;
@@ -379,7 +373,7 @@ public class Main {
                             // UPDATE
                             case 3:
                                 if (sewa.isEmpty()) {
-                                    System.out.println("Belum ada data sewa.");
+                                    System.out.println("Belum ada data sewa");
                                 } else {
 
                                     for (int i = 0; i < sewa.size(); i++) {
@@ -412,7 +406,7 @@ public class Main {
                             // DELETE
                             case 4:
                                 if (sewa.isEmpty()) {
-                                    System.out.println("Belum ada data sewa.");
+                                    System.out.println("Belum ada data sewa");
                                 } else {
 
                                     for (int i = 0; i < sewa.size(); i++) {
@@ -434,7 +428,7 @@ public class Main {
                                         System.out.println("Data berhasil dihapus!");
 
                                     } else {
-                                        System.out.println("Nomor tidak tersedia.");
+                                        System.out.println("Nomor tidak tersedia");
                                     }
                                 }
                                 break;
@@ -443,22 +437,21 @@ public class Main {
                                 break;
 
                             default:
-                                System.out.println("Pilihan tidak tersedia.");
+                                System.out.println("Pilihan tidak tersedia");
                         }
 
                     } while (menuSewa != 0);
 
                     break;
 
-                // =========================================================
-                // EXIT
-                // =========================================================
+                // selesai
+                    
                 case 0:
-                    System.out.println("Program selesai.");
+                    System.out.println("Program selesai");
                     break;
 
                 default:
-                    System.out.println("Pilihan tidak tersedia.");
+                    System.out.println("Pilihan tidak tersedia");
             }
 
         } while (pilihan != 0);
