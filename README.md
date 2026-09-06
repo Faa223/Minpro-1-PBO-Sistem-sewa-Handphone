@@ -2,15 +2,15 @@
 
 ## <b>1. Deskripsi Singkat Program</b>
 
-Sistem Sewa Handphone merupakan program berbasis Java yang digunakan untuk mengelola data handphone, data pelanggan, dan data penyewaan handphone. Program ini dijalankan melalui console dan menggunakan <b>ArrayList</b> untuk menyimpan data selama program berjalan.
+Sistem Sewa Handphone merupakan program berbasis Java yang berguna untuk mengelola data handphone, data pelanggan, dan data penyewaan handphone. Program ini dijalankan melalui console dan menggunakan <b>ArrayList</b> untuk menyimpan data selama programnya berjalan
 
-Program memiliki tiga menu utama, yaitu:
+Program ini memiliki tiga menu utama, yaitu:
 
 - <b>Handphone</b>, digunakan untuk mengelola data handphone.
 - <b>Pelanggan</b>, digunakan untuk mengelola data pelanggan.
 - <b>Sewa</b>, digunakan untuk mengelola data penyewaan handphone.
 
-Setiap menu memiliki fitur <b>CRUD (Create, Read, Update, Delete)</b>, yaitu menambah, melihat, mengubah, dan menghapus data.
+Setiap menu dari sistem sewa handphone ini memiliki fitur <b>CRUD (Create, Read, Update, Delete)</b>, yaitu menambah, melihat, mengubah, dan menghapus data.
 
 ---
 
