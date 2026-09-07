@@ -9,12 +9,12 @@ package com.mycompany.sistemsewahandphone;
  * @author ASUS
  */
 public class Sewa {
-    String idSewa, idPelanggan, kodeHP;
+    String namaPelanggan;
+    int kodeHP;
     int hari;
 
-    public Sewa(String idSewa, String idPelanggan, String kodeHP, int hari) {
-        this.idSewa = idSewa;
-        this.idPelanggan = idPelanggan;
+    public Sewa(String namaPelanggan, int kodeHP, int hari) {
+        this.namaPelanggan = namaPelanggan;
         this.kodeHP = kodeHP;
         this.hari = hari;
     }

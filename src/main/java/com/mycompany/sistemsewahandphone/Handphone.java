@@ -9,10 +9,12 @@ package com.mycompany.sistemsewahandphone;
  * @author ASUS
  */
 public class Handphone {
-    String kode, merk, tipe;
+    int kode;
+    String merk; 
+    String tipe;
     double harga;
 
-    public Handphone(String kode, String merk, String tipe, double harga) {
+    public Handphone(int kode, String merk, String tipe, double harga) {
         this.kode = kode;
         this.merk = merk;
         this.tipe = tipe;

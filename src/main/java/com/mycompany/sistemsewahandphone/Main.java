@@ -59,7 +59,8 @@ public class Main {
                             // CREATE
                             case 1:
                                 System.out.print("Kode HP: ");
-                                String kode = input.nextLine();
+                                int kode = input.nextInt();
+                                input.nextLine();
 
                                 System.out.print("Merk: ");
                                 String merk = input.nextLine();
@@ -89,7 +90,7 @@ public class Main {
                                             + hp.get(i).kode + " | "
                                             + hp.get(i).merk + " | "
                                             + hp.get(i).tipe + " | Rp"
-                                            + hp.get(i).harga
+                                            + hp.get(i).harga + 00
                                         );
                                     }
                                 }
@@ -197,13 +198,15 @@ public class Main {
                             // CREATE
                             case 1:
                                 System.out.print("ID Pelanggan: ");
-                                String id = input.nextLine();
+                                int id = input.nextInt();
+                                input.nextLine();
 
                                 System.out.print("Nama: ");
                                 String nama = input.nextLine();
 
                                 System.out.print("No HP: ");
-                                String noHP = input.nextLine();
+                                int noHP = input.nextInt();
+                                input.nextLine();
 
                                 pelanggan.add(new Pelanggan(id, nama, noHP));
 
@@ -253,7 +256,7 @@ public class Main {
                                         pelanggan.get(nomor - 1).nama = input.nextLine();
 
                                         System.out.print("No HP baru: ");
-                                        pelanggan.get(nomor - 1).noHP = input.nextLine();
+                                        pelanggan.get(nomor - 1).noHP = input.nextInt();
 
                                         System.out.println("Data berhasil diubah!");
 
@@ -325,14 +328,14 @@ public class Main {
 
                             // CREATE
                             case 1:
-                                System.out.print("ID Sewa: ");
-                                String idSewa = input.nextLine();
 
-                                System.out.print("ID Pelanggan: ");
-                                String idPelanggan = input.nextLine();
+                                System.out.print("Nama Pelanggan: ");
+                                String namaPelanggan = input.nextLine();
+
 
                                 System.out.print("Kode HP: ");
-                                String kodeHP = input.nextLine();
+                                int kodeHP = input.nextInt();
+                                input.nextLine();
 
                                 System.out.print("Lama Sewa: ");
                                 int hari = input.nextInt();
@@ -340,8 +343,7 @@ public class Main {
 
                                 sewa.add(
                                     new Sewa(
-                                        idSewa,
-                                        idPelanggan,
+                                        namaPelanggan,
                                         kodeHP,
                                         hari
                                     )
@@ -362,7 +364,7 @@ public class Main {
                                         System.out.println(
                                             (i + 1) + ". "
                                             + sewa.get(i).idSewa + " | "
-                                            + sewa.get(i).idPelanggan + " | "
+                                            + sewa.get(i).namaPelanggan + " | "
                                             + sewa.get(i).kodeHP + " | "
                                             + sewa.get(i).hari + " hari"
                                         );

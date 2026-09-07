@@ -9,9 +9,11 @@ package com.mycompany.sistemsewahandphone;
  * @author ASUS
  */
 public class Pelanggan {
-    String id, nama, noHP;
+    int id;
+    String nama; 
+    int noHP;
 
-    public Pelanggan(String id, String nama, String noHP) {
+    public Pelanggan(int id, String nama, int noHP) {
         this.id = id;
         this.nama = nama;
         this.noHP = noHP;
