@@ -1,3 +1,6 @@
+## Rifaa Zainul Arifin
+## 2509116092 C' 25
+
 # SISTEM SEWA HANDPHONE
 
 ## <b>1. Deskripsi Singkat Program</b>
@@ -95,21 +98,21 @@ Jika pengguna memilih menu <b>0. Keluar</b> pada Menu Utama, sistem akan menampi
 
 berikut screnshoot tampilan menu Data Handphone yang menyediakan fitur untuk menambah, melihat, mengubah, dan menghapus data handphone.
 
-![Menu Data Handphone]<img width="928" height="242" alt="menu-handphone png" src="https://github.com/user-attachments/assets/59cfe0a3-44d3-4cde-90e5-e14e8b95ef42" />
+<img width="928" height="242" alt="menu-handphone png" src="https://github.com/user-attachments/assets/59cfe0a3-44d3-4cde-90e5-e14e8b95ef42" />
 
 
 ### <b>B. Menu Data Pelanggan</b>
 
 berikut screnshoot tampilan menu Data Pelanggan yang digunakan untuk mengelola data pelanggan dengan fitur tambah, lihat, ubah, dan hapus.
 
-![Menu Data Pelanggan]<img width="921" height="240" alt="menu-pelanggan png" src="https://github.com/user-attachments/assets/2f0ebfa8-28d9-40a1-8f57-d6c0911220cf" />
+<img width="921" height="240" alt="menu-pelanggan png" src="https://github.com/user-attachments/assets/2f0ebfa8-28d9-40a1-8f57-d6c0911220cf" />
 
 
 ### <b>C. Menu Data Sewa</b>
 
 Screenshot berikut menunjukkan tampilan menu Data Sewa yang digunakan untuk mengelola data transaksi penyewaan handphone dengan fitur tambah, lihat, ubah, dan hapus.
 
-![Menu Data Sewa]<img width="940" height="236" alt="menu-sewa png" src="https://github.com/user-attachments/assets/904e60f7-f3f2-446d-bd93-65823a9cccfa" />
+<img width="940" height="236" alt="menu-sewa png" src="https://github.com/user-attachments/assets/904e60f7-f3f2-446d-bd93-65823a9cccfa" />
 
 
 ## <b>3. Implementasi Program</b>
