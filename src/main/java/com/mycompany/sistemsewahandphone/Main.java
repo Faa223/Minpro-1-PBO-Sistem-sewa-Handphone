@@ -363,7 +363,6 @@ public class Main {
                                     for (int i = 0; i < sewa.size(); i++) {
                                         System.out.println(
                                             (i + 1) + ". "
-                                            + sewa.get(i).idSewa + " | "
                                             + sewa.get(i).namaPelanggan + " | "
                                             + sewa.get(i).kodeHP + " | "
                                             + sewa.get(i).hari + " hari"
@@ -381,7 +380,6 @@ public class Main {
                                     for (int i = 0; i < sewa.size(); i++) {
                                         System.out.println(
                                             (i + 1) + ". "
-                                            + sewa.get(i).idSewa + " | "
                                             + sewa.get(i).kodeHP + " | "
                                             + sewa.get(i).hari + " hari"
                                         );
@@ -414,7 +412,6 @@ public class Main {
                                     for (int i = 0; i < sewa.size(); i++) {
                                         System.out.println(
                                             (i + 1) + ". "
-                                            + sewa.get(i).idSewa + " | "
                                             + sewa.get(i).kodeHP
                                         );
                                     }
